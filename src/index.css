@@ -1,0 +1,36 @@
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f5f7fb;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.app-shell {
+  width: min(100%, 640px);
+  padding: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 22px 60px rgba(15, 23, 42, 0.12);
+}
+
+.card h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.card p {
+  margin: 0.75rem 0;
+  line-height: 1.75;
+  color: #475569;
+}
